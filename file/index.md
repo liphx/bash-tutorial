@@ -1,0 +1,9 @@
+当用户登录shell时，会执行下列文件：/etc/profile, $HOME/.profile, $HOME/.bash_login, $HOME/.bash_profile 
+
+如果通过图形化登录管理器登入的话，是不会执行/etc/profile、$HOME/.profile和$HOME/.bash_profile这3个文件的。这是因为图形化窗口管理器并不会启动shell。当你打开终端窗口时才会创建shell，但这个shell也不是登录shell
+
+交互式shell（如X11终端会话）或ssh执行单条命令（如ssh 192.168.1.1 ls /tmp）时，会读取并执行以下文件：/etc/bash.bashrc $HOME/.bashrc 
+
+如果调用ssh登录会话：ssh 192.168.1.100 这会创建一个新的登录bash shell，该shell会读取并执行以下文件：/etc/profile /etc/bash.bashrc $HOME/.profile or .bashrc_profile 
+
+当用户登出会话时，会执行下列文件：$HOME/.bash_logout 
