@@ -1,62 +1,58 @@
-# Linux Shell 学习
+# Bash学习笔记
 
-## 修改Shell 提示符
+## 一天一个命令行 
 
-提示符中 $ 表示普通用户，# 表示root
+[apt](CLI/apt.md)  
+[cat](CLI/cat.md)  
+[chmod](CLI/chmod.md)  
+[date](CLI/date.md)  
+[docker](CLI/docker.md)  
+[du,df](CLI/du,df.md)  
+[echo](CLI/echo.md)  
+[env,printenv](CLI/env,printenv.md)  
+[export](CLI/export.md)  
+[file](CLI/file.md)  
+[find](CLI/find.md)  
+[gcc](CLI/gcc.md)  
+[git](CLI/git.md)  
+[grep](CLI/grep.md)  
+[id](CLI/id.md)  
+[ifconfig](CLI/ifconfig.md)  
+[let](CLI/let.md)  
+[make](CLI/make.md)  
+[md5sum](CLI/md5sum.md)  
+[netstat](CLI/netstat.md)  
+[pgrep](CLI/pgrep.md)  
+[printf](CLI/printf.md)  
+[ps](CLI/ps.md)  
+[pwd](CLI/pwd.md)  
+[read](CLI/read.md)  
+[script,scriptreplay](CLI/script,scriptreplay.md)  
+[shift](CLI/shift.md)  
+[sleep](CLI/sleep.md)  
+[sudo](CLI/sudo.md)  
+[tee](CLI/tee.md)  
+[top](CLI/top.md)  
+[tput](CLI/tput.md)  
+[tr](CLI/tr.md)  
+[vim](CLI/vim.md)  
+[wc](CLI/wc.md)  
+[xargs](CLI/xargs.md)  
 
-~/.bashrc中
-PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$
-\u可以扩展为用户名，\h可以扩展为主机名，而\w可以扩展为当前工作目录
+## 定制Bash
 
-## 中文版man 手册
+[alias](file/.bash_aliases)
 
-## alias
+## Bash语法
 
-## 有哪些内建命令 shell builtin
-
-内建命令不需要使用子进程来执行，包括`cd, exit, type, alias, ., echo, history`
-
-特殊文件/proc/PID/environ是一个包含环境变量以及对应变量值的列表。
-
-## .bash_alias
-
-```shell
-alias c=clear
-alias h=history
-alias ..='cd ..'
-alias install='sudo apt install'
-alias update='sudo apt update && sudo apt upgrade'
-
-alias cp='cp -i'
-alias rm='rm -i'
-alias mv='mv -i'
-```
-
-shell使用分号或换行符来分隔单个命令或命令序列
-
-## 添加路径的函数
-
-`prepend() { [ -d "$2" ] && eval $1=\"$2\$\{$1:+':'\$$1\}\" && export $1 ;`
-
-`prepend PATH /opt/myapp/bin`
-
-## 重定向
-
-cmd > file  
-cmd 2> file
-cmd 1>file1 2> file2
-cmd > file 2>&1 或 cmd &> file
-
-重定向脚本内部的文本块
-
-```shell
-#!/bin/bash 
-cat<<EOF>log.txt 
-This is a generated file. Do not edit. Changes will be overwritten. EOF 
-```
-
-## :
-
-shell的内建命令:，该命令的退出状态总是为0
-
-
+[变量](CLI/变量.md)  
+[调试](CLI/调试.md)  
+[管道](CLI/管道.md)  
+[数组](CLI/数组.md)  
+[运算](CLI/运算.md)  
+[alias](CLI/alias.md)  
+[exec](CLI/exec.md)  
+[for,while,until](CLI/for,while,until.md)  
+[function](CLI/function.md)  
+[IFS](CLI/IFS.md)  
+[if,test](CLI/if,test.md)  
