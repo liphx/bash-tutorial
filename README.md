@@ -3,7 +3,7 @@
 ## 一天一个命令行 
 
 [apt](CLI/apt.md)  
-[cat,tac](CLI/cat.md)  
+[cat,tac](CLI/cat,tac.md)  
 [chmod](CLI/chmod.md)  
 [date](CLI/date.md)  
 [docker](CLI/docker.md)  
