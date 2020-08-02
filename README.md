@@ -3,7 +3,7 @@
 ## 一天一个命令行 
 
 [apt](CLI/apt.md)  
-[cat](CLI/cat.md)  
+[cat,tac](CLI/cat.md)  
 [chmod](CLI/chmod.md)  
 [date](CLI/date.md)  
 [docker](CLI/docker.md)  
@@ -41,7 +41,7 @@
 
 ## 定制Bash
 
-[alias](file/.bash_aliases)
+[.bash_aliases](file/.bash_aliases)
 
 ## Bash语法
 
