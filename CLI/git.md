@@ -154,8 +154,3 @@ git reset --hard [commit_id]
 ~/.gitconfig       :  适用于当前用户    git config --global 读写这个文件  
 ${dir}/.git/config ： 针对当前项目有效  git config --local 读写这个文件  
 每一个级别的配置都会覆盖上层的相同配置
-
-## 其他
-
-`gitk` 
-

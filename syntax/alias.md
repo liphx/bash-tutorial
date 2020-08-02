@@ -13,20 +13,3 @@ alias命令的效果只是暂时的。一旦关闭当前终端，所有设置过
 `$ \command` 字符\可以转义命令，从而执行原本的命令。在不可信环境下执行特权命令时，在命令前加上\来忽略可能存在的别名总是一种良好的安全实践。这是因为攻击者可能已经将一些别有用心的命令利用别名伪装成了特权命令，借此来盗取用户输入的重要信息。
 
 alias命令可以列出当前定义的所有别名
-
-```shell
-$ alias 
-alias ..='cd ..'
-alias c='clear'
-alias cp='cp -i'
-alias h='history'
-alias install='sudo apt install'
-alias l='ls -CF'
-alias la='ls -A'
-alias ll='ls -al'
-alias ls='ls --color=auto'
-alias mv='mv -i'
-alias rm='rm -i'
-alias update='sudo apt update && sudo apt upgrade'
-```
-
