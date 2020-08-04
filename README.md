@@ -30,6 +30,7 @@
 [xargs](CLI/xargs.md)  
 [gcc](CLI/gcc.md)  
 [free](CLI/free.md)  
+[wc](CLI/wc.md)  
 
 ## 定制Bash
 
