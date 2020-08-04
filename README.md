@@ -28,6 +28,8 @@
 [tr](CLI/tr.md)  
 [vim](CLI/vim.md)  
 [xargs](CLI/xargs.md)  
+[gcc](CLI/gcc.md)  
+[free](CLI/free.md)  
 
 ## 定制Bash
 
