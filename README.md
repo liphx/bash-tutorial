@@ -31,10 +31,13 @@
 [gcc](CLI/gcc.md)  
 [free](CLI/free.md)  
 [wc](CLI/wc.md)  
+[head,tail](CLI/head,tail.md)  
+[mkdir,rmdir](CLI/mkdir,rmdir.md)  
 
 ## 定制Bash
 
-[.bash_aliases](file/.bash_aliases)
+[aliases](file/aliases)  
+[scripts](file/scripts)  
 
 ## Bash语法
 
