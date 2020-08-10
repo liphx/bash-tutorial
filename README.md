@@ -1,5 +1,9 @@
 # Bash学习笔记
 
+参考
+
+<https://www.gnu.org/software/bash/manual>
+
 ## 一天一个命令行 
 
 [apt](CLI/apt.md)  
