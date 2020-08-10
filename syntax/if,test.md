@@ -21,7 +21,7 @@ else if condition;
 then     
     commands; 
 else     
-    ommands; 
+    commands; 
 fi
 ```
 
