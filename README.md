@@ -2,7 +2,7 @@
 
 参考
 
-<https://www.gnu.org/software/bash/manual>  
+<https://www.gnu.org/software/bash/manual/>  
 <https://manpages.debian.org/>  
 <https://www.kernel.org/doc/man-pages/>
 
