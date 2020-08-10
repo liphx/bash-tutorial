@@ -9,6 +9,7 @@
 ## 一天一个命令行 
 
 [apt](CLI/apt.md)  
+[bash](CLI/bash.md)  
 [cat,tac](CLI/cat,tac.md)  
 [cd](CLI/cd.md)  
 [chmod](CLI/chmod.md)  
@@ -56,12 +57,14 @@
 
 [变量](syntax/变量.md)  
 [调试](syntax/调试.md)  
-[管道](syntax/管道.md)  
 [数组](syntax/数组.md)  
 [运算](syntax/运算.md)  
-[alias](syntax/alias.md)  
+[case](syntax/case.md)  
 [exec](syntax/exec.md)  
-[for,while,until](syntax/for,while,until.md)  
 [function](syntax/function.md)  
 [IFS](syntax/IFS.md)  
 [if,test](syntax/if,test.md)  
+[lists_of_commands](syntax/lists_of_commands.md)  
+[loop](syntax/loop.md)  
+[pipeline](syntax/pipeline.md)  
+[time](syntax/time.md)  
