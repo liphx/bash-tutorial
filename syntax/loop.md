@@ -2,7 +2,10 @@
 
 ## for
 
-面向列表的for循环
+`for name [ [in [lists …] ] ; ] do commands; done`  
+`for (( expr1 ; expr2 ; expr3 )) ; do commands ; done`
+
+### 面向列表的for循环
 
 ```shell
 for var in list; 
@@ -22,10 +25,12 @@ $ echo {a..z} {0..9}
 a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9
 ```
 
-迭代指定范围的数字
+如果不指定`in lists`，默认为`in $@`
+
+### 迭代指定范围的数字
 
 ```shell
-for((i=0;i<10;i++)) 
+for((i=0; i<10; i++)) 
 {    
     commands;
 } 
@@ -33,8 +38,10 @@ for((i=0;i<10;i++))
 
 ## while
 
+`while test-commands; do consequent-commands; done`
+
 ```shell
-while condition 
+while true; 
 do     
     commands; 
 done 
@@ -43,6 +50,8 @@ done
 用true作为循环条件能够产生无限循环
 
 ## until
+
+`until test-commands; do consequent-commands; done`
 
 until会一直循环，直到给定的条件为真。
 
@@ -54,3 +63,7 @@ do
     echo $x; 
 done 
 ```
+
+无限循环 `while true; do cmd; done` 等价于 `until false; do cmd; done`
+
+三种循环都可以使用`break`，`continue`来控制
