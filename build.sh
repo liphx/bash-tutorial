@@ -9,7 +9,7 @@ echo '# Bash学习笔记
 <https://manpages.debian.org/>  
 <https://www.kernel.org/doc/man-pages/>'
 
-dirs="CLI file syntax builtin"
+dirs="syntax file builtin CLI"
 for dir in $dirs;
 do
     cd $dir

@@ -6,6 +6,36 @@
 <https://manpages.debian.org/>  
 <https://www.kernel.org/doc/man-pages/>
 
+## Bash语法
+
+[arithmetic](syntax/arithmetic.md)  
+[array](syntax/array.md)  
+[builtin](syntax/builtin.md)  
+[case](syntax/case.md)  
+[exec](syntax/exec.md)  
+[function](syntax/function.md)  
+[grouping_commands](syntax/grouping_commands.md)  
+[IFS](syntax/IFS.md)  
+[if,test](syntax/if,test.md)  
+[lists_of_commands](syntax/lists_of_commands.md)  
+[loop](syntax/loop.md)  
+[pipeline](syntax/pipeline.md)  
+[select](syntax/select.md)  
+[set](syntax/set.md)  
+[styleguide](syntax/styleguide.md)  
+[time](syntax/time.md)  
+[variable](syntax/variable.md)  
+
+## 定制Bash
+
+[aliases](file/aliases)  
+[profile](file/profile)  
+[scripts](file/scripts)  
+
+## 内置命令
+
+[alias](builtin/alias.md)  
+
 ## 一天一个命令行
 
 [apt](CLI/apt.md)  
@@ -47,33 +77,3 @@
 [vim](CLI/vim.md)  
 [wc](CLI/wc.md)  
 [xargs](CLI/xargs.md)  
-
-## 定制Bash
-
-[aliases](file/aliases)  
-[profile](file/profile)  
-[scripts](file/scripts)  
-
-## Bash语法
-
-[arithmetic](syntax/arithmetic.md)  
-[array](syntax/array.md)  
-[builtin](syntax/builtin.md)  
-[case](syntax/case.md)  
-[exec](syntax/exec.md)  
-[function](syntax/function.md)  
-[grouping_commands](syntax/grouping_commands.md)  
-[IFS](syntax/IFS.md)  
-[if,test](syntax/if,test.md)  
-[lists_of_commands](syntax/lists_of_commands.md)  
-[loop](syntax/loop.md)  
-[pipeline](syntax/pipeline.md)  
-[select](syntax/select.md)  
-[set](syntax/set.md)  
-[styleguide](syntax/styleguide.md)  
-[time](syntax/time.md)  
-[variable](syntax/variable.md)  
-
-## 内置命令
-
-[alias](builtin/alias.md)  
