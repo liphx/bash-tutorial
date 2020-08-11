@@ -1,22 +1,16 @@
-# function - 函数
+# 函数
 
 ## 函数定义
 
-```shell
-function fname() 
-{     
-    statements;
-}
-```
++ `name () compound-command [ redirections ]`
++ `function name [()] compound-command [ redirections ]`
 
-或
+复合命令`(Compound Commands)`包括循环，条件与组分组命令`(Grouping Commands)`
 
-```shell
-fname()
-{
-    statements;
-}
-```
+## 退出状态
+
+函数定义的退出状态为零，除非出现语法错误或已存在同名的只读函数。在执行时，如果给定一个数值参数返回`(return)`，这是函数的返回状态；否则，函数的返回状态是返回前执行的最后一个命令的退出状态
+。
 
 ## 调用函数
 
@@ -72,8 +66,22 @@ bash也支持递归函数，自身调用自己（或循环调用）
 :(){ :|:& };: # fork 炸弹，":" 可作为函数名
 ```
 
-## 导出函数
+## 变量
 
-`export -f fname`
+使用`local`定义变量将仅对函数及其调用的命令可见
 
-## 
+```shell
+func1()
+{
+    local var='func1 local'
+    func2
+}
+
+func2()
+{
+    echo "In func2, var = $var"
+}
+
+var=global
+func1           # => In func2, var = func1 local
+```
