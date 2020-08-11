@@ -51,12 +51,14 @@
 ## 定制Bash
 
 [aliases](file/aliases)  
+[profile](file/profile)  
 [scripts](file/scripts)  
 
 ## Bash语法
 
 [arithmetic](syntax/arithmetic.md)  
 [array](syntax/array.md)  
+[builtin](syntax/builtin.md)  
 [case](syntax/case.md)  
 [exec](syntax/exec.md)  
 [function](syntax/function.md)  
@@ -68,6 +70,7 @@
 [pipeline](syntax/pipeline.md)  
 [select](syntax/select.md)  
 [set](syntax/set.md)  
+[styleguide](syntax/styleguide.md)  
 [time](syntax/time.md)  
 [variable](syntax/variable.md)  
 
