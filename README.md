@@ -6,7 +6,7 @@
 <https://manpages.debian.org/>  
 <https://www.kernel.org/doc/man-pages/>
 
-## 一天一个命令行 
+## 一天一个命令行
 
 [apt](CLI/apt.md)  
 [bash](CLI/bash.md)  
@@ -55,16 +55,22 @@
 
 ## Bash语法
 
-[变量](syntax/变量.md)  
-[调试](syntax/调试.md)  
-[数组](syntax/数组.md)  
-[运算](syntax/运算.md)  
+[arithmetic](syntax/arithmetic.md)  
+[array](syntax/array.md)  
 [case](syntax/case.md)  
 [exec](syntax/exec.md)  
 [function](syntax/function.md)  
+[grouping_commands](syntax/grouping_commands.md)  
 [IFS](syntax/IFS.md)  
 [if,test](syntax/if,test.md)  
 [lists_of_commands](syntax/lists_of_commands.md)  
 [loop](syntax/loop.md)  
 [pipeline](syntax/pipeline.md)  
+[select](syntax/select.md)  
+[set](syntax/set.md)  
 [time](syntax/time.md)  
+[variable](syntax/variable.md)  
+
+## 内置命令
+
+[alias](builtin/alias.md)  
