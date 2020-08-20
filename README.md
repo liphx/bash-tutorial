@@ -42,6 +42,7 @@
 [bash](CLI/bash.md)  
 [cat,tac](CLI/cat,tac.md)  
 [cd](CLI/cd.md)  
+[chattr,lsattr](CLI/chattr,lsattr.md)  
 [chmod](CLI/chmod.md)  
 [date](CLI/date.md)  
 [docker](CLI/docker.md)  
