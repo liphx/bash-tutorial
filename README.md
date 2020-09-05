@@ -28,9 +28,8 @@
 
 ## 定制Bash
 
-[aliases](file/aliases)  
-[profile](file/profile)  
-[scripts](file/scripts)  
+[.bash](file/.bash)  
+[.bashrc](file/.bashrc)  
 
 ## 内置命令
 

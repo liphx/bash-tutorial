@@ -34,6 +34,6 @@ do
     esac
 
     printf "\n%s\n\n" "$title"
-    ls | sed "s/\(.*\)${file}/[\1](${dir}\/\1${file})  /g"
+    ls -A | sed "s/\(.*\)${file}/[\1](${dir}\/\1${file})  /g"
     cd ..
 done
